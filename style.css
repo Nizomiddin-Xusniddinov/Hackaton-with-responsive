@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+/* universal_code */
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+button{
+    padding: 18px 48px ;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.5%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 84, 74, 1);
+    border: none;
+}
+p{
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 3.5%;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 3.5%;
+}
+h3{
+    letter-spacing: 3.5%;
+}
+
+/* header_starting */
+header{
+    width: 100%;
+    background: url('./img/header bac.png') no-repeat center / cover ;
+}
+/* *** navbars_starting *** */
+header .navbars{
+    padding-top: 40px;
+    padding-bottom: 755px;
+}
+header .navbars p{
+    color: rgba(43, 43, 43, 1);
+}
+header .navbars ul li a{
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.5%;
+    color: rgba(43, 43, 43, 1);
+}
+/* section_starting */
+section{
+    width: 100%;
+}
+/* *** hakathon_starting *** */
+section .hakathon .all{
+    margin-top: -70px;
+}
+section .hakathon .first{
+    position: relative;
+    z-index: 1;
+    left: 36px;
+}
+section .hakathon .first h3{
+    position: absolute;
+    top: 23px;
+    left: 80px;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.5%;
+    color: rgba(255, 255, 255, 1);
+}
+section .hakathon .second{
+    position: relative;
+    top: -50px;
+    z-index: 0;
+}
+section .hakathon .second p{
+    position: absolute;
+    top: 75px;
+    left: 114px;
+    right: 100px;
+}
+section .hakathon .box{
+    position: relative;
+}
+section .hakathon .box p{
+    position: absolute;
+    color: white ;
+    top: 104px;
+    right: 25px;
+    bottom: 23px;
+    left: 25px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5%;
+
+}
+section .hakathon .box span{
+    display: block;
+    margin-top: 30px;
+}
+section .hakathon .texts p{
+    color: rgba(43, 43, 43, 1) ;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 3.5%;
+    color: rgba(43, 43, 43, 1);
+    margin-bottom: 60px;
+}
+section .hakathon .texts button{
+    border: none;
+}
+/* *** anyone_starting *** */
+section .anyone .title{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+section .anyone .title h3{
+    position: absolute;
+    top: 15%;
+    font-size: 38px;
+    line-height: 60px;
+}
+/* *** usloviya_starting *** */
+section .usloviya{
+    background: url('./img/usloviya bac.png') no-repeat center / cover;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 271px;
+}
+section .usloviya .comp h3{
+    color: rgba(170, 102, 203, 1);
+    padding-top: 450px;
+
+}
+section .usloviya .texts h3{
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 4.5%;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 67px;
+}
+section .usloviya .texts p:nth-of-type(1){
+    color: #AA66CB;
+    margin-bottom: 100px;
+}
+section .usloviya .texts p:nth-of-type(2){
+    font-size: 18px;
+    line-height: 37px;
+    color: #48394F;
+    padding-bottom: 100px;
+}
+/* *** million_starting *** */
+section .million{
+    background-color: rgba(218, 169, 38, 1);
+    padding: 30px 0px;
+}
+section .million .numb h2{
+    font-weight: 900;
+    font-size: 450px;
+    line-height: 642px;
+    letter-spacing: 3.5%;
+    color: rgba(255, 255, 255, 1);
+}
+section .million .dollar h2{
+    font-size: 150px;
+    line-height: 189px;
+    letter-spacing: 1.5%;
+    color: rgba(136, 75, 178, 1);
+}
+section .million .maximum h2{
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 1.5%;
+    color: rgba(255, 84, 74, 1);
+    margin-bottom: 50px;
+}
+section .million .maximum button{
+    border: none;
+}
+/* *** even_starting *** */
+section .even{
+    padding: 100px 0px;
+}
+section .even .second{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+/* main_starting */
+main{
+    margin-bottom: 100px;
+}
+main .faq{
+    color: rgba(136, 75, 178, 1);
+    font-size: 60px;
+    line-height: 86px;
+    margin-bottom: 30px;
+}
+/* footer_starting */
+footer{
+    width: 100%;
+    background: url('./img/footer bac.png') no-repeat bottom / cover;
+    padding: 100px 0px;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li a{
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+/* media_starting */
+/* md = 991-768 */
+@media (max-width:991.98px) {
+    ol, ul {
+        padding-left: 0px;
+    }
+    header .pg{
+        text-align: center;
+    }
+    section .hakathon .texts p {
+        color: rgba(43, 43, 43, 1);
+        font-size: 19px;
+        line-height: 28px;
+        letter-spacing: 3.5%;
+        color: rgba(43, 43, 43, 1);
+        margin-bottom: 60px;
+    }
+    section .hakathon .box p {
+        position: absolute;
+        color: white;
+        top: 10px;
+        right: 18px;
+        bottom: 23px;
+        left: 19px;
+        font-size: 14px;
+        line-height: 13px;
+        letter-spacing: 0.5%;
+    }
+    section .anyone .title h3 {
+        position: absolute;
+        top: 15%;
+        font-size: 30px;
+        line-height: 42px;
+    }
+    section .million .maximum h2 {
+        font-size: 41px;
+        line-height: 47px;
+        letter-spacing: 1.5%;
+        color: rgba(255, 84, 74, 1);
+        margin-bottom: 18px;
+    }
+    section .million .dollar h2 {
+        font-size: 112px;
+        line-height: 114px;
+        letter-spacing: 1.5%;
+        color: rgba(136, 75, 178, 1);
+    }
+    
+}
+/* sm = 767-576 */
+@media (max-width:767.98px) {
+    header .navbars ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header .navbars ul li  {
+        /* padding-bottom: 5px; */
+        border-bottom: 1px solid rgba(43, 43, 43, 1);
+    }
+    section .usloviya {
+        padding-top: 86px;
+        padding-bottom: 200px;
+    }
+    section .million .numb h2 {
+        font-weight: 900;
+        font-size: 330px;
+        line-height: 563px;
+        letter-spacing: 3.5%;
+        color: rgba(255, 255, 255, 1);
+    }
+    section .million .dollar h2 {
+        font-size: 93px;
+        line-height: 87px;
+        letter-spacing: 1.5%;
+        color: rgba(136, 75, 178, 1);
+    }
+    section .million .maximum h2 {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 1.5%;
+        color: rgba(255, 84, 74, 1);
+        margin-bottom: 18px;
+    }
+    main .box{
+        margin-bottom: 30px;
+    }
+    footer .butn{
+        text-align: center;
+    }
+
+}
+/* xs = 575-320*/
+@media (max-width:575.98px) {
+    section .hakathon .first h3 {
+        position: absolute;
+        top: 16px;
+        left: 80px;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 0.5%;
+        color: rgba(255, 255, 255, 1);
+    }
+    section .hakathon .second p {
+        position: absolute;
+        top: 58px;
+        left: 114px;
+        right: 100px;
+    }
+    section .hakathon .box p {
+        position: absolute;
+        color: white;
+        top: 10px;
+        right: 18px;
+        bottom: 23px;
+        left: 19px;
+        font-size: 7px;
+        line-height: 10px;
+        letter-spacing: 0.5%;
+    }
+    section .hakathon .second p {
+        display: none;
+    }
+    section .hakathon  .texts{
+        text-align: center;
+    }
+    section .anyone .title h3 {
+        position: absolute;
+        top: 15%;
+        font-size: 19px;
+        line-height: 37px;
+    }
+    section .usloviya {
+        padding-top: 2px;
+        padding-bottom: 100px;
+    }
+    section .million {
+        text-align: center;
+    }
+    footer ul li a {
+        font-size: 9px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 1);
+    }
+    button {
+        padding: 5px 39px;
+    }
+    footer .butn{
+        text-align: center;
+    }
+    section .hakathon .first img{
+        max-width: 90%;
+    }
+}
